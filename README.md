@@ -20,12 +20,17 @@ XMP 3.0
 - Wipe individual profiles/complete XMP block
 - Import/Export XMP 3.0 profiles
 
-Preliminary EXPO support
+EXPO support
+- Disable/Enable EXPO header
+- Create EXPO profile frome existent XMP profile
+- Import/Export EXPO profiles
 
 # TODO
 - Finish Misc Tab
 - Add default JEDEC profiles
 - Figure out some bits that are still missing (like DIMMs per channel)
+- CUDIMM support, or at least testing to make sure it doesn't corrupt the SPD.
+- Fix the windows build provided by Github actions
 
 # Acknowledgements
-- N-Storm (https://github.com/N-Storm)
+- N-Storm (https://github.com/N-Storm) for the Github actions
